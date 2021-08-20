@@ -1,0 +1,136 @@
+body{
+    position: relative;
+}
+.lienzo {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 2fr 1fr 1fr 0.2fr;
+    grid-template-rows: repeat(7, 50px);
+    grid-gap: 0.15em;
+    background-color: black;
+    width: 38em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 50%);
+    border-color: black;
+    border-style: groove;
+    border-width: thick;
+}
+
+.item-1{
+    grid-row-start: 1;
+    grid-row-end:4;
+    background-color: #EBEAE9;
+}
+
+.item-2, .item-11, .item-33, .item-40{
+    background-color: #000000;
+}
+
+.item-3{
+    grid-column-start: 3;
+    grid-column-end:5;
+    background-color: #18325F;
+}
+
+.item-5{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    background-color: #EBEAE9;
+}
+
+.item-8{
+    grid-column-start: 2;
+    grid-column-end:4;
+    background-color: #CECECE;
+}
+
+.item-10{
+    background-color: #b41111;
+}
+
+.item-12{
+    background-color: #18325F;
+}
+
+.item-14{
+    grid-column: 2;
+    grid-row: 3;
+    background-color: #000000;
+}
+
+.item-15, .item-21, .item-29{
+    background-color: #ddd12c;
+}
+
+.item-16{
+    grid-column: 4;
+    grid-row-start: 3;
+    grid-row-end:5;
+    background-color: #18325F;
+}
+
+.item-17{
+    grid-column: 5;
+    grid-row-start: 3;
+    grid-row-end:5;
+    background-color: #b41111;
+}
+
+.item-18{
+    grid-column: 6;
+    grid-row-start: 3;
+    grid-row-end:6;
+    background-color: #CECECE;
+}
+
+.item-19{
+    grid-row-start: 4;
+    grid-row-end:7;
+    background-color: #CECECE;
+}
+
+.item-20{
+    grid-row-start: 4;
+    grid-row-end:7;
+    grid-column: 2;
+    background-color: #e2dfdf;
+}
+
+.item-27{
+    background-color: #cc420c;
+}
+
+.item-28{
+    background-color: #dddddd;
+}
+
+.item-34{
+    background-color: #aca9a9;
+}
+
+.item-35{
+    background-color: #18325F;
+}
+
+.item-36{
+    grid-row-start: 6;
+    grid-row-end:8;
+    grid-column:6;
+    background-color: #991515;
+}
+
+.item-37{
+    grid-row: 7;
+    grid-column-start: 1;
+    grid-column-end:3;
+    background-color: #C9BB26;
+}
+
+.item-39{
+    grid-row: 7;
+    grid-column-start: 3;
+    grid-column-end:5;
+    background-color: #d8d8d8;
+}
